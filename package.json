@@ -1,0 +1,21 @@
+{
+  "name": "kumiyui_template",
+  "module": "index.js",
+  "type": "module",
+  "kumiyui": {
+    "headers": {
+      "name": "kumiyui_template",
+      "version": "1.0.0",
+      "description": "a template for kumiyui",
+      "author": "kumiyuki",
+      "match": ["https://github.com/kumiyuki"],
+      "grant": ["GM_setValue", "GM_getValue"],
+      "run-at": "document-start"
+    },
+    "entry": "./index.js",
+    "output": "./dist/kumiyui_template.user.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}

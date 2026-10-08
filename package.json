@@ -5,11 +5,16 @@
   "kumiyui": {
     "headers": {
       "name": "kumiyui_template",
-      "version": "1.0.0",
+      "version": "0.0.1",
       "description": "a template for kumiyui",
       "author": "kumiyuki",
       "match": ["https://github.com/kumiyuki"],
-      "grant": ["GM_setValue", "GM_getValue"],
+      "grant": [
+        "GM_setValue",
+        "GM_getValue",
+        "GM_registerMenuCommand",
+        "GM_unregisterMenuCommand"
+      ],
       "run-at": "document-start"
     },
     "entry": "./index.js",

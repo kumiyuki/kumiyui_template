@@ -6,10 +6,12 @@ look at the [./package.json](./package.json) to edit userscript header
 
 ## build
 ```sh
+mkdir ./dest
 bun kumiyui build
 ```
 
 ## build (with minification)
 ```sh
+mkdir ./dest
 bun kumiyui build --minify
 ```

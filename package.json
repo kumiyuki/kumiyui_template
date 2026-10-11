@@ -20,6 +20,10 @@
     "entry": "./index.js",
     "output": "./dist/kumiyui_template.user.js"
   },
+  "scripts": {
+    "build": "bun kumiyui build --minify",
+    "build-no-minify": "bun kumiyui build"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },

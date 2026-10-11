@@ -1,5 +1,9 @@
 {
   "name": "kumiyui_template",
+  "author": {
+    "name": "kumiyuki",
+    "url": "https://github.com/kumiyuki"
+  },
   "module": "index.js",
   "type": "module",
   "kumiyui": {

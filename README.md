@@ -2,16 +2,15 @@
 the template for the [kumiyui](https://github.com/kumiyuki/kumiyui) framework.
 
 ## userscript header
-look at the [./package.json](./package.json) to edit userscript header
+you can edit the userscript header, by editting the [./package.json](./package.json) file.\
+please don't remove some of the permissions (from "kumiyui.headers.grant"), they are crucial for the framework to work.
 
 ## build
 ```sh
-mkdir ./dest
 bun kumiyui build
 ```
 
 ## build (with minification)
 ```sh
-mkdir ./dest
 bun kumiyui build --minify
 ```
